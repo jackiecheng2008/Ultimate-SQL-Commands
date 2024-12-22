@@ -1,0 +1,4 @@
+-- merge_upsert.sql (Hibernate)
+-- HQL doesn't support MERGE in the same sense. Typically, you'd do:
+-- session.saveOrUpdate(entity);
+-- Or use an INSERT-SELECT approach if available.
